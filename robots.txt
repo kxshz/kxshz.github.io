@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kxshz.github.io/sitemap.xml
