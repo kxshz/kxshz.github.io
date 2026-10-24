@@ -102,7 +102,7 @@
       min-height: 100vh;
       min-height: 100dvh;
       background-color: #000000;
-      color: #ffffff;
+      color: #00f0ff;
       touch-action: manipulation;
       -webkit-text-size-adjust: 100%;
       overflow-x: hidden;
@@ -139,7 +139,7 @@
     }
 
     a {
-      color: #ffffff;
+      color: #00f0ff;
       text-decoration: none;
       cursor: pointer;
       display: inline-block;
@@ -147,6 +147,10 @@
 
     a:hover {
       text-decoration: underline;
+    }
+
+    a.exit-link {
+      color: #ff003c;
     }
 
     a:active {
@@ -161,10 +165,13 @@
         opacity: 1 !important;
         visibility: visible !important;
         background-color: #000000 !important;
-        color: #ffffff !important;
+        color: #00f0ff !important;
       }
       a:hover {
         text-decoration: underline !important;
+      }
+      a.exit-link {
+        color: #ff003c !important;
       }
     </style>
   </noscript>
@@ -183,7 +190,7 @@
 
     <div class="spacer"></div>
 
-    <div><a href="https://hx.s.gy/" target="_blank" rel="noopener noreferrer">HX.S.GY</a></div>
+    <div><a class="exit-link" href="https://hx.s.gy/" target="_blank" rel="noopener noreferrer">HX.S.GY</a></div>
   </main>
 
   <script>
